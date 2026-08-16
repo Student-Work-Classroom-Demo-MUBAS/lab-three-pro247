@@ -1,19 +1,36 @@
-p {
-    color: black
+nav a {
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.intro {
-    color: blue
+h2+p {
+    font-size: 1.3rem;
 }
 
-#hero {
-    color: red;
+nav li {
+    list-style: none;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+h2+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h2~p {
+    margin-left: 1rem;
 }
 
 p.intro {
-    color: green;
+    color: #0D9488;
 }
 
-p {
-    color: purple !important;
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
 }
