@@ -1,36 +1,47 @@
-nav a {
-    font-weight: bold;
-    text-decoration: none;
-}
+ .static {
+     position: static;
+ }
 
-h2+p {
-    font-size: 1.3rem;
-}
+ .relative-example {
+     position: relative;
+     top: 20px;
+     left: 10px;
 
-nav li {
-    list-style: none;
+ }
 
-}
 
-nav>ul {
-    display: flex;
-}
 
-h2+p {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
+ .badge {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     background: red;
+     color: white;
+     border: #ca1b1b;
+     border-radius: 2px;
+     padding: 2px;
+ }
 
-h2~p {
-    margin-left: 1rem;
-}
 
-p.intro {
-    color: #0D9488;
-}
+ .card {
+     position: relative;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     background: #ffffff;
+ }
 
-h1,
-h2,
-h3 {
-    font-family: Georgia, serif;
-}
+ .navbar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 100;
+
+ }
+
+ .section-header {
+     position: sticky;
+     top: 0;
+     background: white;
+ }
