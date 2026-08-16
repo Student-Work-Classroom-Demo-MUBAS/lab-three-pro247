@@ -1,0 +1,19 @@
+p {
+    color: black
+}
+
+.intro {
+    color: blue
+}
+
+#hero {
+    color: red;
+}
+
+p.intro {
+    color: green;
+}
+
+p {
+    color: purple !important;
+}
