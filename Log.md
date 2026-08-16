@@ -8,3 +8,4 @@ Prediction to task 1
 
 what i have learnt from this session is the display flex that its default is  a row as i was surprised after adding the nav elements list they were all in a row instead of being in different columns each hence i can use elements ike siplay: list-item or display: bolck inorder to have them each in a separate solumn.
 Also learnt how to remove the underline via the use of text-decoration setting as none.
+understood cascading in task 4 through padding on how they're the different stles to add padding as well as cascading the one that win is the one that has the highest specificity.
